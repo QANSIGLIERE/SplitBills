@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "qansigliere-splitbills",
+  "version": "0.1.0",
+  "description": "The library is based on the Javascript programming language and allows you to calculate different number of split bills and tips based on the initial amount",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QANSIGLIERE/SplitBills.git"
+  },
+  "keywords": [
+    "node",
+    "qansigliere",
+    "split",
+    "bills",
+    "calculation",
+    "tax"
+  ],
+  "author": "qansigliere@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QANSIGLIERE/SplitBills/issues"
+  },
+  "homepage": "https://github.com/QANSIGLIERE/SplitBills#readme"
+}
