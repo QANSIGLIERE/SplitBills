@@ -3,7 +3,7 @@
     "jest": "^29.7.0"
   },
   "name": "qansigliere-splitbills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The library is based on the Javascript programming language and allows you to calculate different number of split bills and tips based on the initial amount",
   "main": "index.js",
   "devDependencies": {},

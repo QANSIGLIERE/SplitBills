@@ -28,12 +28,16 @@ tip for each payment if needed.
 var { splitBills } = require('qansigliere-splitbills');
 
 console.log(JSON.stringify(splitBills(1.31, 4, true, 15)));
+
+console.log(JSON.stringify(splitBills(0.01, 2, true, 15, false))); // Error message turned off
 ```
 
 Output
 
 ```
 [{"amount":0.33,"tips":0.05},{"amount":0.33,"tips":0.05},{"amount":0.33,"tips":0.05},{"amount":0.32,"tips":0.05}]
+
+[{"amount":0.01,"tips":0}]
 ```
 
 ### ES Module
@@ -43,12 +47,15 @@ import { splitBills } from 'qansigliere-splitbills';
 
 console.log(JSON.stringify(splitBills(1.31, 4, true, 15)));
 
+console.log(JSON.stringify(splitBills(0.01, 2, true, 15, false))); // Error message turned off
 ```
 
 Output
 
 ```
 [{"amount":0.33,"tips":0.05},{"amount":0.33,"tips":0.05},{"amount":0.33,"tips":0.05},{"amount":0.32,"tips":0.05}]
+
+[{"amount":0.01,"tips":0}]
 ```
 
 ## Improvements and Suggestions
