@@ -1,4 +1,4 @@
-# SplitBills
+# Split Bills | Split Payments
 
 The library is based on the Javascript programming language and allows you to calculate different number of split bills
 and tips based on the initial amount. You just need to specify amount, number of payments, should we calculate tips and
@@ -7,6 +7,10 @@ percentage of tips
 ## Author
 
 https://www.youtube.com/@QANSIGLIERE/
+
+## Support the project
+
+https://buymeacoffee.com/qansigliere
 
 ## Installing
 
@@ -58,6 +62,6 @@ Output
 [{"amount":0.01,"tips":0}]
 ```
 
-## Improvements and Suggestions
+## Improvements & Suggestions
 
-https://forms.gle/iAYSDv98yHt11DUV7
+https://forms.gle/GZbS9hw42tSYJxKL7
